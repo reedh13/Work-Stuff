@@ -123,7 +123,7 @@ function Show-InteractivePrinterMenu {
     $form.Topmost = $true
     $result = $form.ShowDialog()
 
-    #Work
+    #Deletion
     if ($result -eq [System.Windows.Forms.DialogResult]::OK) {
         foreach ($selected in $listBox.CheckedItems) {
             $name = $selected.Text

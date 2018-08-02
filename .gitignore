@@ -6,3 +6,4 @@ geckodriver.log
 desktop.ini
 list_input.ps1
 misc/Eracent.side
+py/*
